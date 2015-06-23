@@ -43,7 +43,7 @@ group :development, :test do
   gem 'spring'
 
 
-group :development, :test "should do something" do
+group :development, :test do
   
   gem 'sqlite3'
   gem 'pry'
@@ -55,3 +55,4 @@ group :production do
   gem 'rails_12factor'
 end
 
+end
